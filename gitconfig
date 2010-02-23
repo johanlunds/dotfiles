@@ -1,0 +1,9 @@
+[user]
+  name =  Jeff Kreeftmeijer
+  email = jeff@kreeftmeijer.nl
+[github]
+	user =  jeffkreeftmeijer
+[color]
+	branch = auto
+	diff = auto
+	status = auto
