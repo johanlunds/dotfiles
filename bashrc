@@ -27,6 +27,7 @@ alias gpush="gpus"
 # Mate
 alias m="mate"
 alias m.="mate ."
+alias m,="m."
 
 # Rails
 alias ss="script/server"
