@@ -26,6 +26,8 @@ alias gtsa="gsta"
 alias gpush="gpus"
 alias gpuso="gpus origin"
 alias gpusom="gpuso master"
+alias gpulo="gpul origin"
+alias gpulom="gpulo master"
 
 # Mate
 alias m="mate"
