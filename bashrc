@@ -40,6 +40,7 @@ alias rdbm="rake db:migrate"
 # Locations
 alias 80="cd ~/80beans"
 alias os="cd ~/opensource"
+alias op="os"
 
 # Apps
 alias chrome="open /Applications/Google\ Chrome.app"
