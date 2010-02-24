@@ -18,11 +18,14 @@ alias gadd="git add . "
 alias gcom="git commit -a -m"
 alias gpus="git push"
 
+alias gad="gadd"
 alias gadd.="gadd"
 alias gpull="gpul"
 alias gdiff="gdif"
 alias gtsa="gsta"
 alias gpush="gpus"
+alias gpuso="gpus origin"
+alias gpusom="gpuso master"
 
 # Mate
 alias m="mate"
