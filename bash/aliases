@@ -10,6 +10,7 @@ alias gbra="git branch -a"
 alias gadd="git add . "
 alias gcom="git commit -a -m"
 alias gpus="git push"
+alias gmer="git merge"
 
 alias gad="gadd"
 alias gadd.="gadd"
