@@ -21,6 +21,7 @@ alias gpuso="gpus origin"
 alias gpusom="gpuso master"
 alias gpulo="gpul origin"
 alias gpulom="gpulo master"
+alias gchem="git checkout master"
 
 # Mate
 alias m="mate"
