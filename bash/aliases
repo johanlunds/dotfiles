@@ -1,5 +1,8 @@
+# Bash
+alias ls="ls -lah"
+
 # Git
-alias g='git'
+alias g="git"
 alias gcln="git clone"
 alias gpul="git pull"
 alias glog="git log"
