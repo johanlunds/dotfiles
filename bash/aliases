@@ -1,5 +1,6 @@
 # Bash
-alias ls="ls -lah"
+alias ls="ls -aF"
+alias la="ls -lahF"
 
 # Git
 alias g="git"
@@ -29,7 +30,8 @@ alias gchem="git checkout master"
 
 # Mate
 alias m="mate"
-alias m.="mate ."
+
+alias m.="m ."
 alias m,="m."
 
 # Rails
@@ -38,7 +40,7 @@ alias sc="script/console"
 
 # Rake
 alias r="rake"
-alias rdbm="rake db:migrate"
+alias rdbm="r db:migrate"
 
 # Locations
 alias 80="cd ~/80beans"
