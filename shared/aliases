@@ -34,6 +34,13 @@ alias m="mate"
 alias m.="m ."
 alias m,="m."
 
+# RVM
+alias 1.9="rvm ruby-1.9 && ruby -v"
+alias 1.8="rvm system && ruby -v"
+
+alias 19="1.9"
+alias 18="1.8"
+
 # Rails
 alias ss="script/server"
 alias sc="script/console"
