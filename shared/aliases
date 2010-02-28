@@ -1,4 +1,4 @@
-# Bash
+# Shell
 alias ls="ls -aF"
 alias la="ls -lahF"
 

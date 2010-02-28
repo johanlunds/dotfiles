@@ -1,0 +1,3 @@
+# RVM
+
+if [[ -s /Users/jeff/.rvm/scripts/rvm ]] ; then source /Users/jeff/.rvm/scripts/rvm ; fi
