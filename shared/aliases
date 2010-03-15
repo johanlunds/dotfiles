@@ -2,6 +2,9 @@
 alias ls="ls -aF"
 alias la="ls -lahF"
 
+# Git Achievements
+alias git="~/opensource/git-achievements/git-achievements"
+
 # Git
 alias g="git"
 alias gcln="git clone"
