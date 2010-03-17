@@ -60,6 +60,9 @@ alias sgmi="sg migration"
 alias r="rake"
 alias rdbm="r db:migrate"
 
+# Ruby
+alias rb="ruby"
+
 # Locations
 alias 80="cd ~/80beans"
 alias os="cd ~/opensource"
