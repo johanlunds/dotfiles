@@ -3,9 +3,6 @@ alias ls="ls -aF"
 alias la="ls -lahF"
 alias pubkey="cat ~/.ssh/id_rsa.pub"
 
-# Git Achievements
-alias git="~/opensource/git-achievements/git-achievements"
-
 # Git
 alias g="git"
 alias gcln="git clone"
@@ -51,6 +48,10 @@ alias 18="1.8"
 alias ss="script/server"
 alias sc="script/console"
 alias sg="script/generate"
+
+alias rs="rails/server"
+alias rc="rails/console"
+alias rg="rails/generate"
 
 alias sgco="sg controller"
 alias sgmo="sg model"
