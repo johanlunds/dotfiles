@@ -28,6 +28,7 @@ alias gpusom="gpuso master"
 alias gpusod="gpuso develop"
 alias gpulo="gpul origin"
 alias gpulom="gpulo master"
+alias gpulod="gpulo develop"
 alias gchem="git checkout master"
 alias gmerm="git merge master"
 
