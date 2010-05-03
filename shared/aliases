@@ -64,6 +64,10 @@ alias rdbm="r db:migrate"
 # Ruby
 alias rb="ruby"
 
+# Jekyll
+alias j="jekyll"
+alias js="jekyll --server --auto --pygments"
+
 # Locations
 alias 80="cd ~/80beans"
 alias os="cd ~/opensource"
