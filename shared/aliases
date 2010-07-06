@@ -38,6 +38,12 @@ alias m="mate"
 alias m.="m ."
 alias m,="m."
 
+#MVim
+alias v="mvim"
+
+alias v.="v ."
+alias v,="v."
+
 # RVM
 alias 1.9="rvm ruby-1.9 && ruby -v"
 alias 1.8="rvm system && ruby -v"
