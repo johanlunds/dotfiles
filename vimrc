@@ -8,6 +8,7 @@ set number                              " show line numbers
 set ruler                               " show the cursor position all the time
 set nowrap                     			 		" don't wrap lines
 set tabstop=2                   		 		" a tab is two spaces
+set expandtab                           " insert space characters whenever the tab key is pressed
 set backspace=indent,eol,start  		 		" allow backspacing over everything in insert mode
 set autoindent                  		 		" always set autoindenting on
 set copyindent                  		 		" copy the previous indentation on autoindenting
@@ -27,6 +28,10 @@ autocmd BufWritePre * :%s/\s\+$//e   		" Remove trailing whitespace before savin
 
 " Map <F2> to toggle the NERDTree
 map <F2> :NERDTreeToggle<CR>
+
+"Tab switching with <F3> & <F4>
+map <F3> :tabp<CR>
+map <F4> :tabn<CR>
 
 colorscheme railscasts                 	" Use the railscasts color scheme
 set gfn=Bitsteam\ Vera\ Sans\ Mono\ 12 	" Use the Bitstream font
