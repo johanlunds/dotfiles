@@ -33,6 +33,11 @@ map <F2> :NERDTreeToggle<CR>
 map <F3> :tabp<CR>
 map <F4> :tabn<CR>
 
+" No more toolbar
+if has("gui_running")
+    set guioptions=egmrt
+endif
+
 colorscheme railscasts                 	" Use the railscasts color scheme
 set gfn=Bitsteam\ Vera\ Sans\ Mono\ 12 	" Use the Bitstream font
 
