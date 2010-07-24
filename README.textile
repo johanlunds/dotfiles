@@ -4,12 +4,16 @@ Jeff Kreeftmeijer's dotfiles.
 
 h2. Installation
 
-Just clone the repository, @cd@ into the @dotfiles@ directory and run @rake install@;
+Install ["homesick":http://github.com/technicalpickles/homesick]:
 
-bc. git://github.com/jeffkreeftmeijer/dotfiles.git
-cd dotfiles
-rake install
+bc. gem install homesick
 
-This will _remove_ (make backups) your current dotfiles and make symlinks to the files in the dotfiles directory.
+Clone the repo with homesick:
+
+bc. homesick clone jeffkreeftmeijer/dotfiles
+
+And symlink it:
+
+bc. homesick symlink jeffkreeftmeijer/dotfiles
 
 Have fun! ;)
