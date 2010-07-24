@@ -26,6 +26,10 @@ set incsearch                   		 		" show search matches as you type
 
 autocmd BufWritePre * :%s/\s\+$//e   		" Remove trailing whitespace before saving
 
+" Map <F1> to use FuzzyFinder
+map <F1> :FufFile<CR>
+imap <F1> <ESC>
+
 " Map <F2> to toggle the NERDTree
 map <F2> :NERDTreeToggle<CR>
 
